@@ -1,0 +1,59 @@
+.up img{
+    width: 95px;  
+}
+body{
+    display: flex;
+    margin: 0px;
+}
+.photo{
+    width: 159%;
+}
+.up{
+    justify-items: center;
+    text-align: center; 
+}
+.page{
+    justify-items: center; 
+    align-items: center;
+    margin-top: 100px;
+    width: 50%;
+}
+.gris{
+    color: grey;
+}
+.input-grp{
+    justify-items: center;
+    text-align: left;
+}
+.input-grp input{
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.connection{
+    margin-top: 25px;
+    justify-items: center;
+    text-align: center;
+}
+.connection a{
+    color: #0088ff;
+}
+.connect{
+    background-color: #0088ff;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 30px;
+}
+@keyframes move {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.3); }
+}
+.con{
+     animation: move 3s infinite  alternate ease-in-out;
+}
+.con:hover {
+    transform: scale(2,3);
+}
